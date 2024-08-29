@@ -36,3 +36,4 @@ else if(n<0){
 else{
     console.log("Given input is invalid");
 }
+

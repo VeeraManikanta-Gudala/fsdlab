@@ -2,7 +2,7 @@
   "name": "lab2",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10",
     "zod": "^3.23.8"
   }
 }
